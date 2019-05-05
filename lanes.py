@@ -31,9 +31,6 @@ def average_slope_intercept(image, lines):
     rfline = makecords(image, rfavg)
     return np.array([lfline,rfline])
 
-    
-            
-
 def canny(image):
     #turns image into
     gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
